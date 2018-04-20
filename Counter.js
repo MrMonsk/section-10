@@ -11,7 +11,7 @@ class Counter extends React.Component {
         {
           this.props.counter.showError
           &&
-          <Text style={styles.dangerZone}>Can't reset</Text>
+          <Text style={styles.dangerZone}>Cannot reset</Text>
         }
       <Text>{this.props.counter.currentValue}</Text>
       </View>
